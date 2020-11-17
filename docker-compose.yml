@@ -1,0 +1,7 @@
+version: "3.8"
+services:
+  ansible.test:
+    image: ansible-vmware
+    hostname: ansible.test
+    ports:
+      - "2224:22"
